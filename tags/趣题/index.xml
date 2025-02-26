@@ -25,8 +25,7 @@ $$&lt;/p></description></item><item><title>互测题总结</title><link>https://
 &lt;h3 id="description">Description&lt;/h3>
 &lt;blockquote>
 &lt;p>称一个仅由&lt;code>a&lt;/code>, &lt;code>b&lt;/code>, &lt;code>c&lt;/code>组成的字符串 \(S\) 是平衡的当且仅当对于 \(S\) 的任意一个连续子串 \(T\), 任意两种字符的出现次数之差都小于等于 \(k\), 求长度为 \(n\) 的平衡串的数量.&lt;/p>
-&lt;p>\(n \le 10^9, K \le 8\)&lt;/p>
-&lt;/blockquote>
+&lt;p>\(n \le 10^9, K \le 8\)&lt;/p>&lt;/blockquote>
 &lt;h3 id="solution">Solution&lt;/h3>
 &lt;p>定义 \(f_{a, b}(i)\) 表示在前 \(i\) 个字符中 &lt;code>a&lt;/code> 和 &lt;code>b&lt;/code> 出现次数之差, 在只考虑 &lt;code>a&lt;/code>, &lt;code>b&lt;/code> 两种字符的条件等价于:&lt;/p>
 &lt;p>$$\max_{i=1}^{n} f_{a, b}(i) - \min_{i=1}^{n} f_{a, b}(i) \le k$$&lt;/p>
@@ -48,8 +47,7 @@ $$&lt;/p>
 &lt;p>在考虑完 \(\sqrt{n}\) 以内的所有质因数后, \(S_k(n)\) 中留下了所有质数的 \(k\) 次方, 这样所有第一类数的函数值都可以快速计算.&lt;/p></description></item><item><title>平面树计数</title><link>https://wearry01.github.io/posts/count-plane-tree/</link><pubDate>Fri, 01 Dec 2017 11:03:04 +0000</pubDate><guid>https://wearry01.github.io/posts/count-plane-tree/</guid><description>&lt;h2 id="问题描述">问题描述&lt;/h2>
 &lt;blockquote>
 &lt;p>给定 \(N\), 求 \(N\) 个点的本质不同的平面树的数量.&lt;/p>
-&lt;p>两棵平面树是等价的当且仅当其中一棵能够移动点的位置与另一棵重合, 且过程中仍然是一棵平面树——即在平面内边不交错地进行平移.&lt;/p>
-&lt;/blockquote>
+&lt;p>两棵平面树是等价的当且仅当其中一棵能够移动点的位置与另一棵重合, 且过程中仍然是一棵平面树——即在平面内边不交错地进行平移.&lt;/p>&lt;/blockquote>
 &lt;h2 id="做法">做法&lt;/h2>
 &lt;p>考虑模型转化 (计算 \(N+1\) 个点的答案):
 取单位圆, 等距地取 \(2N\) 个点, 然后将这些点两两配对连边, 满足所有连边不相交.
@@ -62,8 +60,7 @@ $$&lt;/p>
 而在这个圆上共有 \(2N\) 个点, 就意味着有 \(2N\) 个置换, 构成一个置换群.&lt;/p>
 &lt;p>置换群下的计数可以用到 Burnside引理 :&lt;/p>
 &lt;blockquote>
-&lt;p>$$ N(G, C) = \frac{1}{|G|} { \sum_{f \in G} c(f) } $$&lt;/p>
-&lt;/blockquote>
+&lt;p>$$ N(G, C) = \frac{1}{|G|} { \sum_{f \in G} c(f) } $$&lt;/p>&lt;/blockquote>
 &lt;p>则转化为求置换下的不动点的数量:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -80,8 +77,7 @@ $$&lt;/p>
 &lt;h2 id="agc002-f-leftmost-ball">AGC002 F Leftmost Ball&lt;/h2>
 &lt;blockquote>
 &lt;p>给你\(N\)种不同颜色的球, 每种有\(K\)个, 现在你可以将球任意排列, 但最终的序列中每种颜色的第一个出现位置要被染成\(0\)颜色, 求能够得到的本质不同的序列数, 对\(10^9 + 7\)取模.&lt;/p>
-&lt;p>\(N, K \leq 2000\)&lt;/p>
-&lt;/blockquote>
+&lt;p>\(N, K \leq 2000\)&lt;/p>&lt;/blockquote>
 &lt;p>这题正着处理没有什么思路, 但是如果从右往左来会比较好考虑.
 我们可以记\(f(i, j)\)表示当前从右往左填剩下\(i\)个\(0\)颜色的球, 还剩下\(j\)种颜色没有放的方案数.
 那么每一次的决策就包括放入一个\(0\)颜色的球以及添加一种颜色的\(k-1\)个球:&lt;/p>
@@ -90,8 +86,7 @@ f(i-1, j) &amp;amp; \leftarrow f(i, j) \mid [i &amp;gt; j] \\
 f(i, j-1) &amp;amp; \leftarrow f(i, j) \times {n-i + (n-j) \times (k-1) + k-2 \choose k-2}
 \end{aligned}&lt;/p>
 &lt;blockquote>
-&lt;p>后面那个公式是可重集, 还有最后的答案要乘以 \(n!\).&lt;/p>
-&lt;/blockquote>
+&lt;p>后面那个公式是可重集, 还有最后的答案要乘以 \(n!\).&lt;/p>&lt;/blockquote>
 &lt;h2 id="agc005-d-k-perm-counting">AGC005 D ~K Perm Counting&lt;/h2>
 &lt;blockquote>
 &lt;p>求长度为\(N\)的排列中, 满足对任意的\(i\), 都有\(|a_i - i| \neq K\)的排列数量.&lt;/p>

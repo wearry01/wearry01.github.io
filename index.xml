@@ -9,8 +9,7 @@
 
 &lt;!-- raw HTML omitted -->
 &lt;blockquote>
-&lt;p>如果人类无法区分屏幕后与其对话的是另一个人类个体还是某种计算机器，则称这台它具有机器智能。&lt;/p>
-&lt;/blockquote>
+&lt;p>如果人类无法区分屏幕后与其对话的是另一个人类个体还是某种计算机器，则称这台它具有机器智能。&lt;/p>&lt;/blockquote>
 &lt;p>大半个世纪后的今天，GPT 的横空出世和快速发展已经让越来越多的人相信，
 机器智能将在可预见的未来中实现，一些观点甚至认为 GPT 已经通过了 “图灵测试” &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。
 尽管自提出以来，类似的争议以及对图灵测试本身的质疑从未停息，
@@ -146,12 +145,8 @@
  height="86"
  src="//music.163.com/outchain/player?type=2&amp;id=25542198&amp;auto=0&amp;height=66">
  &lt;/iframe>
-
-
- 
- &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/kMCSMrnVsek?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/kMCSMrnVsek?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;h3 id="施工进度">施工进度&lt;/h3>
@@ -193,8 +188,7 @@
 &lt;p>壮年听雨客舟中，江阔云低，断雁叫西风。&lt;/p>
 &lt;p>而今听雨僧庐下，鬓已星星也。&lt;/p>
 &lt;p>悲欢离合总无情，一任阶前，点滴到天明。&lt;/p>
-&lt;p>——蒋捷《虞美人·听雨》&lt;/p>
-&lt;/blockquote>
+&lt;p>——蒋捷《虞美人·听雨》&lt;/p>&lt;/blockquote>
 &lt;h2 id="后记">后记&lt;/h2>
 &lt;hr>
 &lt;p>写这篇文章的时候，正好是一个旧的阶段将要过去，新的旅途尚未开始的时候，混乱的记忆和杂糅的情感不断交织，希望利用这碎笔的形式一吐心中积郁。
@@ -232,8 +226,7 @@ $$&lt;/p></description></item><item><title>互测题总结</title><link>https://
 &lt;h3 id="description">Description&lt;/h3>
 &lt;blockquote>
 &lt;p>称一个仅由&lt;code>a&lt;/code>, &lt;code>b&lt;/code>, &lt;code>c&lt;/code>组成的字符串 \(S\) 是平衡的当且仅当对于 \(S\) 的任意一个连续子串 \(T\), 任意两种字符的出现次数之差都小于等于 \(k\), 求长度为 \(n\) 的平衡串的数量.&lt;/p>
-&lt;p>\(n \le 10^9, K \le 8\)&lt;/p>
-&lt;/blockquote>
+&lt;p>\(n \le 10^9, K \le 8\)&lt;/p>&lt;/blockquote>
 &lt;h3 id="solution">Solution&lt;/h3>
 &lt;p>定义 \(f_{a, b}(i)\) 表示在前 \(i\) 个字符中 &lt;code>a&lt;/code> 和 &lt;code>b&lt;/code> 出现次数之差, 在只考虑 &lt;code>a&lt;/code>, &lt;code>b&lt;/code> 两种字符的条件等价于:&lt;/p>
 &lt;p>$$\max_{i=1}^{n} f_{a, b}(i) - \min_{i=1}^{n} f_{a, b}(i) \le k$$&lt;/p>
@@ -274,8 +267,7 @@ $$&lt;/p>
 &lt;p>不管怎样, 接下来的OI生涯, 要更加珍惜!&lt;/p></description></item><item><title>平面树计数</title><link>https://wearry01.github.io/posts/count-plane-tree/</link><pubDate>Fri, 01 Dec 2017 11:03:04 +0000</pubDate><guid>https://wearry01.github.io/posts/count-plane-tree/</guid><description>&lt;h2 id="问题描述">问题描述&lt;/h2>
 &lt;blockquote>
 &lt;p>给定 \(N\), 求 \(N\) 个点的本质不同的平面树的数量.&lt;/p>
-&lt;p>两棵平面树是等价的当且仅当其中一棵能够移动点的位置与另一棵重合, 且过程中仍然是一棵平面树——即在平面内边不交错地进行平移.&lt;/p>
-&lt;/blockquote>
+&lt;p>两棵平面树是等价的当且仅当其中一棵能够移动点的位置与另一棵重合, 且过程中仍然是一棵平面树——即在平面内边不交错地进行平移.&lt;/p>&lt;/blockquote>
 &lt;h2 id="做法">做法&lt;/h2>
 &lt;p>考虑模型转化 (计算 \(N+1\) 个点的答案):
 取单位圆, 等距地取 \(2N\) 个点, 然后将这些点两两配对连边, 满足所有连边不相交.
@@ -288,8 +280,7 @@ $$&lt;/p>
 而在这个圆上共有 \(2N\) 个点, 就意味着有 \(2N\) 个置换, 构成一个置换群.&lt;/p>
 &lt;p>置换群下的计数可以用到 Burnside引理 :&lt;/p>
 &lt;blockquote>
-&lt;p>$$ N(G, C) = \frac{1}{|G|} { \sum_{f \in G} c(f) } $$&lt;/p>
-&lt;/blockquote>
+&lt;p>$$ N(G, C) = \frac{1}{|G|} { \sum_{f \in G} c(f) } $$&lt;/p>&lt;/blockquote>
 &lt;p>则转化为求置换下的不动点的数量:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -324,8 +315,7 @@ T3没想多久推出一个平衡树的做法, 对自己代码能力过于自信�
 &lt;h2 id="agc002-f-leftmost-ball">AGC002 F Leftmost Ball&lt;/h2>
 &lt;blockquote>
 &lt;p>给你\(N\)种不同颜色的球, 每种有\(K\)个, 现在你可以将球任意排列, 但最终的序列中每种颜色的第一个出现位置要被染成\(0\)颜色, 求能够得到的本质不同的序列数, 对\(10^9 + 7\)取模.&lt;/p>
-&lt;p>\(N, K \leq 2000\)&lt;/p>
-&lt;/blockquote>
+&lt;p>\(N, K \leq 2000\)&lt;/p>&lt;/blockquote>
 &lt;p>这题正着处理没有什么思路, 但是如果从右往左来会比较好考虑.
 我们可以记\(f(i, j)\)表示当前从右往左填剩下\(i\)个\(0\)颜色的球, 还剩下\(j\)种颜色没有放的方案数.
 那么每一次的决策就包括放入一个\(0\)颜色的球以及添加一种颜色的\(k-1\)个球:&lt;/p>
@@ -334,8 +324,7 @@ f(i-1, j) &amp;amp; \leftarrow f(i, j) \mid [i &amp;gt; j] \\
 f(i, j-1) &amp;amp; \leftarrow f(i, j) \times {n-i + (n-j) \times (k-1) + k-2 \choose k-2}
 \end{aligned}&lt;/p>
 &lt;blockquote>
-&lt;p>后面那个公式是可重集, 还有最后的答案要乘以 \(n!\).&lt;/p>
-&lt;/blockquote>
+&lt;p>后面那个公式是可重集, 还有最后的答案要乘以 \(n!\).&lt;/p>&lt;/blockquote>
 &lt;h2 id="agc005-d-k-perm-counting">AGC005 D ~K Perm Counting&lt;/h2>
 &lt;blockquote>
 &lt;p>求长度为\(N\)的排列中, 满足对任意的\(i\), 都有\(|a_i - i| \neq K\)的排列数量.&lt;/p>
@@ -353,8 +342,8 @@ f(i, j-1) &amp;amp; \leftarrow f(i, j) \times {n-i + (n-j) \times (k-1) + k-2 \c
  }
 
  var __cur = 6;
- var __tot = 24;
- var __step = 5;
+ var __tot = 30;
+ var __step = 6;
 
  for (var i = 1; i &lt; __cur; i++) {
  $('#mygallery').append('&lt;a href="https://wearry01.github.io/images/gallery/img_' + padding(i) + '.jpg">' +
