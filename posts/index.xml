@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Wearry's Blog</title><link>https://wearry01.github.io/posts/</link><description>Recent content in Posts on Wearry's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 18 Mar 2025 00:48:08 +0800</lastBuildDate><atom:link href="https://wearry01.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>与不可区分的随机共舞</title><link>https://wearry01.github.io/posts/imitation/</link><pubDate>Tue, 11 Jun 2024 22:52:00 +0800</pubDate><guid>https://wearry01.github.io/posts/imitation/</guid><description>&lt;h2 class="heading" id="模仿游戏">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Wearry's Blog</title><link>https://wearry01.github.io/posts/</link><description>Recent content in Posts on Wearry's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Mar 2025 23:12:36 +0800</lastBuildDate><atom:link href="https://wearry01.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>与不可区分的随机共舞</title><link>https://wearry01.github.io/posts/imitation/</link><pubDate>Tue, 11 Jun 2024 22:52:00 +0800</pubDate><guid>https://wearry01.github.io/posts/imitation/</guid><description>&lt;h2 class="heading" id="模仿游戏">
  模仿游戏
  &lt;a class="anchor" href="#%e6%a8%a1%e4%bb%bf%e6%b8%b8%e6%88%8f">#&lt;/a>
 &lt;/h2>
@@ -10,7 +10,8 @@
 
 &lt;blockquote>
 &lt;p>如果人类无法区分屏幕后与其对话的是另一个人类个体还是某种计算机器，则称这台它具有机器智能。&lt;/p>&lt;/blockquote>
-&lt;p>大半个世纪后的今天，GPT 的横空出世和快速发展已经让越来越多的人相信，机器智能将在可预见的未来中实现，一些观点甚至认为 GPT 已经通过了 “图灵测试” &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。尽管自提出以来，类似的争议以及对图灵测试本身的质疑从未停息，其中 &lt;strong>不可区分&lt;/strong> 的哲学也影响了计算机科学的基础。在图灵测试提出 6 年后，以色列海法一个护士和电气工程师组成的家庭中诞生的一个孩子，将在其中做出突出贡献，并以此让自己的名字和图灵紧密联系在一起。&lt;/p>
+&lt;p>大半个世纪后的今天，GPT 的横空出世和快速发展已经让越来越多的人相信，机器智能将在可预见的未来中实现，一些观点甚至认为 GPT 已经通过了 “图灵测试” &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。尽管自提出以来，类似的争议以及对图灵测试本身的质疑从未停息，其中 &lt;strong>不可区分&lt;/strong> 的哲学也影响了计算机科学的基础。在图灵测试提出 6
+年后，以色列海法一个护士和电气工程师组成的家庭中诞生的一个孩子，将在其中做出突出贡献，并以此让自己的名字和图灵紧密联系在一起。&lt;/p>
 &lt;h2 class="heading" id="avi-wigderson-简介">
  Avi Wigderson 简介
  &lt;a class="anchor" href="#avi-wigderson-%e7%ae%80%e4%bb%8b">#&lt;/a>
@@ -19,8 +20,8 @@
 &lt;p>1977 年，Wigderson 进入以色列理工学院学习并于 1980 年毕业，之后进入普林斯顿大学攻读研究生，1983 年在导师 Richard Lipton 指导下完成题为
 &lt;em>Studies in Combinatorial Complexity&lt;/em> 的博士论文，并获得了计算机科学博士学位。1999 年，Wigderson 加入了普林斯顿高等研究院 (IAS)，并在那里工作至今。2016 年，在一场庆祝 Wigderson 60 岁生日的活动中，IAS 院长
 Robbert Dijkgraaf 说，他开创了该研究院在理论计算机科学领域的黄金时代。&lt;/p>
-&lt;p>因 &lt;strong>理论计算机科学与离散数学方面的奠基性贡献&lt;/strong> ，Wigderson 于 2021 年与布达佩斯罗兰大学的数学家 László Lovász 共享了阿贝尔奖。并于 2024 年 4
-月 10 日，被 ACM 授予 2023 年图灵奖，以表彰他对 &lt;strong>计算理论的基础性贡献，包括塑造对计算中随机性作用的理解&lt;/strong> 。由此，他也成为了唯一一个同时摘得数学领域阿贝尔奖和计算机科学领域图灵奖的学者。&lt;/p></description></item><item><title>Indrew</title><link>https://wearry01.github.io/posts/rewind/</link><pubDate>Mon, 29 Apr 2024 18:12:00 +0800</pubDate><guid>https://wearry01.github.io/posts/rewind/</guid><description>&lt;h2 class="heading" id="i">
+&lt;p>因 &lt;strong>理论计算机科学与离散数学方面的奠基性贡献&lt;/strong> ，Wigderson 于 2021 年与布达佩斯罗兰大学的数学家 László Lovász 共享了阿贝尔奖。并于 2024 年
+4 月 10 日，被 ACM 授予 2023 年图灵奖，以表彰他对 &lt;strong>计算理论的基础性贡献，包括塑造对计算中随机性作用的理解&lt;/strong> 。由此，他也成为了唯一一个同时摘得数学领域阿贝尔奖和计算机科学领域图灵奖的学者。&lt;/p></description></item><item><title>Indrew</title><link>https://wearry01.github.io/posts/rewind/</link><pubDate>Mon, 29 Apr 2024 18:12:00 +0800</pubDate><guid>https://wearry01.github.io/posts/rewind/</guid><description>&lt;h2 class="heading" id="i">
  I
  &lt;a class="anchor" href="#i">#&lt;/a>
 &lt;/h2>
@@ -74,7 +75,8 @@ Robbert Dijkgraaf 说，他开创了该研究院在理论计算机科学领域�
 &lt;p>可一件令他感到更加奇怪的事情发生了，翊惊出一身冷汗，接着一阵目眩。&lt;/p>
 &lt;hr>
 &lt;p>翊办公桌前的人输入了最后几位密钥：「7-@-5-$-」，响起的却是急促而刺耳的错误提示。他摇了摇头，心里叹道： &lt;em>还是不行吗？&lt;/em>&lt;/p>
-&lt;p>将这个错误的尝试记录在某个地方，他操作起脑机里名为 =翊-15:33.status=的文件，选择了 &lt;strong>恢复模拟&lt;/strong> 。&lt;/p>
+&lt;p>将这个错误的尝试记录在某个地方，他操作起脑机里名为 &lt;code>翊-15:33.snapshot&lt;/code>
+的文件，选择了 &lt;strong>恢复模拟&lt;/strong> 。&lt;/p>
 &lt;h2 class="heading" id="v">
  V
  &lt;a class="anchor" href="#v">#&lt;/a>
@@ -89,8 +91,7 @@ Robbert Dijkgraaf 说，他开创了该研究院在理论计算机科学领域�
 &lt;p>&lt;em>发生了什么？介质里的内容怎么全部消失了？&lt;/em>&lt;/p>
 &lt;p>翊一边脑海闪过无数推测，一边镇定地去找用于恢复的备份，却渐渐感到呼吸困难。&lt;/p>
 &lt;hr>
-&lt;p>清脆的声音响起，黑色的身影长舒一口气，还好在限制的次数之内解开了，简单确认其中的内容，放下了悬着的一颗心。&lt;/p>
-&lt;p>&lt;em>我知道说服不了你的，但你也知道我不会轻易罢休，对不起只能用这样特殊的方法了。&lt;/em> &lt;em>等这份内容得到投资人认可，公司成功上市后，你会感谢我的。&lt;/em>&lt;/p></description></item><item><title>落幕回响</title><link>https://wearry01.github.io/posts/echo/</link><pubDate>Wed, 12 Jul 2023 16:50:00 +0800</pubDate><guid>https://wearry01.github.io/posts/echo/</guid><description>&lt;h2 class="heading" id="壹-燕园的十七个瞬间">
+&lt;p>清脆的声音响起，黑色的身影长舒一口气，还好在限制的次数之内解开了，简单确认其中的内容，放下了悬着的一颗心。&lt;/p></description></item><item><title>落幕回响</title><link>https://wearry01.github.io/posts/echo/</link><pubDate>Wed, 12 Jul 2023 16:50:00 +0800</pubDate><guid>https://wearry01.github.io/posts/echo/</guid><description>&lt;h2 class="heading" id="壹-燕园的十七个瞬间">
  壹·燕园的十七个瞬间
  &lt;a class="anchor" href="#%e5%a3%b9-%e7%87%95%e5%9b%ad%e7%9a%84%e5%8d%81%e4%b8%83%e4%b8%aa%e7%9e%ac%e9%97%b4">#&lt;/a>
 &lt;/h2>
@@ -137,7 +138,7 @@ Robbert Dijkgraaf 说，他开创了该研究院在理论计算机科学领域�
  灿若流星
  &lt;a class="anchor" href="#%e7%81%bf%e8%8b%a5%e6%b5%81%e6%98%9f">#&lt;/a>
 &lt;/h3>
-&lt;p>一个我很喜欢的答案如是说：「流星划破天际只是短短一瞬，但就在那一瞬，它已将自己的灿烂留在夜空中」。&lt;/p></description></item><item><title>博客搬迁</title><link>https://wearry01.github.io/posts/new-blog/</link><pubDate>Wed, 05 Jul 2023 14:53:00 +0800</pubDate><guid>https://wearry01.github.io/posts/new-blog/</guid><description>&lt;h3 class="heading" id="new-features">
+&lt;p>我很喜欢的一个答案是：「流星划破天际只是短短一瞬，但就在那一瞬，它已将自己的灿烂留在夜空中」。&lt;/p></description></item><item><title>博客搬迁</title><link>https://wearry01.github.io/posts/new-blog/</link><pubDate>Wed, 05 Jul 2023 14:53:00 +0800</pubDate><guid>https://wearry01.github.io/posts/new-blog/</guid><description>&lt;h3 class="heading" id="new-features">
  New Features
  &lt;a class="anchor" href="#new-features">#&lt;/a>
 &lt;/h3>
