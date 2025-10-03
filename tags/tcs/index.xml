@@ -1,24 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TCS on Wearry's Blog</title><link>https://wearry01.github.io/tags/tcs/</link><description>Recent content in TCS on Wearry's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 26 Mar 2025 08:24:10 +0800</lastBuildDate><atom:link href="https://wearry01.github.io/tags/tcs/index.xml" rel="self" type="application/rss+xml"/><item><title>与不可区分的随机共舞</title><link>https://wearry01.github.io/posts/imitation/</link><pubDate>Tue, 11 Jun 2024 22:52:00 +0800</pubDate><guid>https://wearry01.github.io/posts/imitation/</guid><description>&lt;h2 class="heading" id="模仿游戏">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TCS on Wearry's Blog</title><link>https://wearry01.github.io/tags/tcs/</link><description>Recent content in TCS on Wearry's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Oct 2025 14:07:05 +0800</lastBuildDate><atom:link href="https://wearry01.github.io/tags/tcs/index.xml" rel="self" type="application/rss+xml"/><item><title>与不可区分的随机共舞</title><link>https://wearry01.github.io/posts/imitation/</link><pubDate>Tue, 11 Jun 2024 22:52:00 +0800</pubDate><guid>https://wearry01.github.io/posts/imitation/</guid><description>&lt;h2 class="heading" id="模仿游戏"&gt;
  模仿游戏
- &lt;a class="anchor" href="#%e6%a8%a1%e4%bb%bf%e6%b8%b8%e6%88%8f">#&lt;/a>
-&lt;/h2>
-&lt;p>1950 年，英国曼彻斯特。&lt;/p>
-&lt;p>Alan Turing 在其影响深远的论文 &lt;em>Computing Machinery and Intelligence&lt;/em>
-中探讨了「机器能否思考」这一问题，并给出了他的判断方法——即著名的图灵测试 (The Turing Test):&lt;/p>
-&lt;figure>&lt;img src="https://wearry01.github.io/images/turing%20test.jpg">
-&lt;/figure>
+ &lt;a class="anchor" href="#%e6%a8%a1%e4%bb%bf%e6%b8%b8%e6%88%8f"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;1950 年，英国曼彻斯特。&lt;/p&gt;
+&lt;p&gt;Alan Turing 在其影响深远的论文 &lt;em&gt;Computing Machinery and Intelligence&lt;/em&gt;
+中探讨了「机器能否思考」这一问题，并给出了他的判断方法——即著名的图灵测试 (The Turing Test):&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://wearry01.github.io/images/turing%20test.jpg"&gt;
+&lt;/figure&gt;
 
-&lt;blockquote>
-&lt;p>如果人类无法区分屏幕后与其对话的是另一个人类个体还是某种计算机器，则称这台它具有机器智能。&lt;/p>&lt;/blockquote>
-&lt;p>大半个世纪后的今天，GPT 的横空出世和快速发展已经让越来越多的人相信，机器智能将在可预见的未来中实现，一些观点甚至认为 GPT 已经通过了 “图灵测试” &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。尽管自提出以来，类似的争议以及对图灵测试本身的质疑从未停息，其中 &lt;strong>不可区分&lt;/strong> 的哲学也影响了计算机科学的基础。在图灵测试提出 6
-年后，以色列海法一个护士和电气工程师组成的家庭中诞生的一个孩子，将在其中做出突出贡献，并以此让自己的名字和图灵紧密联系在一起。&lt;/p>
-&lt;h2 class="heading" id="avi-wigderson-简介">
+&lt;blockquote&gt;
+&lt;p&gt;如果人类无法区分屏幕后与其对话的是另一个人类个体还是某种计算机器，则称这台它具有机器智能。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;大半个世纪后的今天，GPT 的横空出世和快速发展已经让越来越多的人相信，机器智能将在可预见的未来中实现，一些观点甚至认为 GPT 已经通过了 “图灵测试” &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;。尽管自提出以来，类似的争议以及对图灵测试本身的质疑从未停息，其中 &lt;strong&gt;不可区分&lt;/strong&gt; 的哲学也影响了计算机科学的基础。在图灵测试提出 6年后，以色列海法一个护士和电气工程师组成的家庭中诞生的一个孩子，将在其中做出突出贡献，并以此让自己的名字和图灵紧密联系在一起。&lt;/p&gt;
+&lt;h2 class="heading" id="avi-wigderson-简介"&gt;
  Avi Wigderson 简介
- &lt;a class="anchor" href="#avi-wigderson-%e7%ae%80%e4%bb%8b">#&lt;/a>
-&lt;/h2>
-&lt;p>1956 年，Avi Wigderson 出生在以色列海法。&lt;/p>
-&lt;p>1977 年，Wigderson 进入以色列理工学院学习并于 1980 年毕业，之后进入普林斯顿大学攻读研究生，1983 年在导师 Richard Lipton 指导下完成题为
-&lt;em>Studies in Combinatorial Complexity&lt;/em> 的博士论文，并获得了计算机科学博士学位。1999 年，Wigderson 加入了普林斯顿高等研究院 (IAS)，并在那里工作至今。2016 年，在一场庆祝 Wigderson 60 岁生日的活动中，IAS 院长
-Robbert Dijkgraaf 说，他开创了该研究院在理论计算机科学领域的黄金时代。&lt;/p>
-&lt;p>因 &lt;strong>理论计算机科学与离散数学方面的奠基性贡献&lt;/strong> ，Wigderson 于 2021 年与布达佩斯罗兰大学的数学家 László Lovász 共享了阿贝尔奖。并于 2024 年
-4 月 10 日，被 ACM 授予 2023 年图灵奖，以表彰他对 &lt;strong>计算理论的基础性贡献，包括塑造对计算中随机性作用的理解&lt;/strong> 。由此，他也成为了唯一一个同时摘得数学领域阿贝尔奖和计算机科学领域图灵奖的学者。&lt;/p></description></item></channel></rss>
+ &lt;a class="anchor" href="#avi-wigderson-%e7%ae%80%e4%bb%8b"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;1956 年，Avi Wigderson 出生在以色列海法。&lt;/p&gt;
+&lt;p&gt;1977 年，Wigderson 进入以色列理工学院学习并于 1980 年毕业，之后进入普林斯顿大学攻读研究生，1983 年在导师 Richard Lipton 指导下完成题为
+&lt;em&gt;Studies in Combinatorial Complexity&lt;/em&gt; 的博士论文，并获得了计算机科学博士学位。1999 年，Wigderson 加入了普林斯顿高等研究院 (IAS)，并在那里工作至今。2016 年，在一场庆祝 Wigderson 60 岁生日的活动中，IAS 院长
+Robbert Dijkgraaf 说，他开创了该研究院在理论计算机科学领域的黄金时代。&lt;/p&gt;
+&lt;p&gt;因 &lt;strong&gt;理论计算机科学与离散数学方面的奠基性贡献&lt;/strong&gt; ，Wigderson 于 2021 年与布达佩斯罗兰大学的数学家 László Lovász 共享了阿贝尔奖。并于 2024 年4
+月 10 日，被 ACM 授予 2023 年图灵奖，以表彰他对 &lt;strong&gt;计算理论的基础性贡献，包括塑造对计算中随机性作用的理解&lt;/strong&gt; 。由此，他也成为了唯一一个同时摘得数学领域阿贝尔奖和计算机科学领域图灵奖的学者。&lt;/p&gt;</description></item></channel></rss>
