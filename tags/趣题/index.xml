@@ -37,7 +37,8 @@ $$&lt;/p&gt;</description></item><item><title>互测题总结</title><link>https
 &lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;称一个仅由&lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt;, &lt;code&gt;c&lt;/code&gt;组成的字符串 \(S\) 是平衡的当且仅当对于 \(S\) 的任意一个连续子串 \(T\), 任意两种字符的出现次数之差都小于等于 \(k\), 求长度为 \(n\) 的平衡串的数量.&lt;/p&gt;
-&lt;p&gt;\(n \le 10^9, K \le 8\)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;\(n \le 10^9, K \le 8\)&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 class="heading" id="solution"&gt;
  Solution
  &lt;a class="anchor" href="#solution"&gt;#&lt;/a&gt;
@@ -70,7 +71,8 @@ $$&lt;/p&gt;</description></item><item><title>平面树计数</title><link>https
 &lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;给定 \(N\), 求 \(N\) 个点的本质不同的平面树的数量.&lt;/p&gt;
-&lt;p&gt;两棵平面树是等价的当且仅当其中一棵能够移动点的位置与另一棵重合, 且过程中仍然是一棵平面树——即在平面内边不交错地进行平移.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;两棵平面树是等价的当且仅当其中一棵能够移动点的位置与另一棵重合, 且过程中仍然是一棵平面树——即在平面内边不交错地进行平移.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 class="heading" id="做法"&gt;
  做法
  &lt;a class="anchor" href="#%e5%81%9a%e6%b3%95"&gt;#&lt;/a&gt;
@@ -86,7 +88,8 @@ $$&lt;/p&gt;</description></item><item><title>平面树计数</title><link>https
 而在这个圆上共有 \(2N\) 个点, 就意味着有 \(2N\) 个置换, 构成一个置换群.&lt;/p&gt;
 &lt;p&gt;置换群下的计数可以用到 Burnside引理 :&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;$$ N(G, C) = \frac{1}{|G|} { \sum_{f \in G} c(f) } $$&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;$$ N(G, C) = \frac{1}{|G|} { \sum_{f \in G} c(f) } $$&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;则转化为求置换下的不动点的数量:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -109,7 +112,8 @@ $$&lt;/p&gt;</description></item><item><title>平面树计数</title><link>https
 &lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;给你\(N\)种不同颜色的球, 每种有\(K\)个, 现在你可以将球任意排列, 但最终的序列中每种颜色的第一个出现位置要被染成\(0\)颜色, 求能够得到的本质不同的序列数, 对\(10^9 + 7\)取模.&lt;/p&gt;
-&lt;p&gt;\(N, K \leq 2000\)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;\(N, K \leq 2000\)&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;这题正着处理没有什么思路, 但是如果从右往左来会比较好考虑.
 我们可以记\(f(i, j)\)表示当前从右往左填剩下\(i\)个\(0\)颜色的球, 还剩下\(j\)种颜色没有放的方案数.
 那么每一次的决策就包括放入一个\(0\)颜色的球以及添加一种颜色的\(k-1\)个球:&lt;/p&gt;
@@ -118,7 +122,8 @@ f(i-1, j) &amp;amp; \leftarrow f(i, j) \mid [i &amp;gt; j] \\
 f(i, j-1) &amp;amp; \leftarrow f(i, j) \times {n-i + (n-j) \times (k-1) + k-2 \choose k-2}
 \end{aligned}&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;后面那个公式是可重集, 还有最后的答案要乘以 \(n!\).&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;后面那个公式是可重集, 还有最后的答案要乘以 \(n!\).&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 class="heading" id="agc005-d-k-perm-counting"&gt;
  AGC005 D ~K Perm Counting
  &lt;a class="anchor" href="#agc005-d-k-perm-counting"&gt;#&lt;/a&gt;
