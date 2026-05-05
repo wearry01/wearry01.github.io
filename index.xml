@@ -547,49 +547,7 @@ f(i, j-1) &amp;amp; \leftarrow f(i, j) \times {n-i + (n-j) \times (k-1) + k-2 \c
  &lt;a class="anchor" href="#agc005-d-k-perm-counting"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;求长度为\(N\)的排列中, 满足对任意的\(i\), 都有\(|a_i - i| \neq K\)的排列数量.&lt;/p&gt;</description></item><item><title/><link>https://wearry01.github.io/photos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wearry01.github.io/photos/</guid><description>&lt;div id="mygallery" &gt;
- &lt;!-- other images... --&gt;
-&lt;/div&gt;
-
-&lt;script&gt;
- function padding(n) {
- n = n + "";
- while (n.length &lt; 5) {
- n = "0" + n;
- }
- return n;
- }
-
- var __cur = 6;
- var __tot = 30;
- var __step = 6;
-
- for (var i = 1; i &lt; __cur; i++) {
- $('#mygallery').append('&lt;a href="https://wearry01.github.io/images/gallery/img_' + padding(i) + '.jpg"&gt;' +
- '&lt;img src="https://wearry01.github.io/images/gallery/img_' + padding(i) + '.jpg"/&gt;' + 
- '&lt;/a&gt;');
- }
-
- $("#mygallery").justifiedGallery({
- margin: 3,
- rel : 'gallery1',
- rowHeight: 200,
- captions: false,
- randomize: true
- });
-
- $(window).scroll(function() {
- if($(window).scrollTop() + $(window).height() == $(document).height()) {
- for (var i = __cur; i &lt; __cur + __step &amp;&amp; i &lt;= __tot; i++) {
- $('#mygallery').append('&lt;a href="https://wearry01.github.io/images/gallery/img_' + padding(i) + '.jpg"&gt;' +
- '&lt;img src="https://wearry01.github.io/images/gallery/img_' + padding(i) + '.jpg"/&gt;' + 
- '&lt;/a&gt;');
- }
- __cur += __step;
- $('#mygallery').justifiedGallery('norewind');
- }
- });
-&lt;/script&gt;</description></item><item><title/><link>https://wearry01.github.io/qc-reading/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wearry01.github.io/qc-reading/</guid><description>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;p&gt;求长度为\(N\)的排列中, 满足对任意的\(i\), 都有\(|a_i - i| \neq K\)的排列数量.&lt;/p&gt;</description></item><item><title/><link>https://wearry01.github.io/qc-reading/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wearry01.github.io/qc-reading/</guid><description>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
@@ -863,4 +821,55 @@ f(i, j-1) &amp;amp; \leftarrow f(i, j) \times {n-i + (n-j) \times (k-1) + k-2 \c
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id="postamble" class="status"&gt;
-&lt;p class="author"&gt;Author: Wearry&lt;/p&gt;</description></item></channel></rss>
+&lt;p class="author"&gt;Author: Wearry&lt;/p&gt;</description></item><item><title>Photos</title><link>https://wearry01.github.io/photos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wearry01.github.io/photos/</guid><description>&lt;script&gt;
+window.galleryImages = ["001.JPG","img_00001.jpg","img_00002.jpg","img_00003.jpg","img_00004.jpg","img_00005.jpg","img_00006.jpg","img_00007.jpg","img_00008.jpg","img_00009.jpg","img_00010.jpg","img_00011.jpg","img_00012.jpg","img_00013.jpg","img_00014.jpg","img_00015.jpg","img_00016.jpg","img_00018.jpg","img_00019.jpg","img_00020.jpg","img_00021.jpg","img_00022.jpg","img_00023.jpg","img_00024.jpg","img_00025.jpg","img_00026.jpg","img_00027.jpg","img_00028.jpg","img_00029.jpg","img_00030.jpg"];
+&lt;/script&gt;
+
+
+&lt;div id="mygallery" &gt;
+ &lt;!-- images loaded dynamically --&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+ var images = (window.galleryImages || []).slice();
+
+ // Fisher-Yates shuffle
+ for (var i = images.length - 1; i &gt; 0; i--) {
+ var j = Math.floor(Math.random() * (i + 1));
+ var tmp = images[i];
+ images[i] = images[j];
+ images[j] = tmp;
+ }
+
+ var __cur = 0;
+ var __step = 6;
+
+ function loadNext() {
+ var end = Math.min(__cur + __step, images.length);
+ for (var i = __cur; i &lt; end; i++) {
+ $('#mygallery').append('&lt;a href="https://wearry01.github.io/images/gallery/' + images[i] + '"&gt;' +
+ '&lt;img src="https://wearry01.github.io/images/gallery/' + images[i] + '"/&gt;' +
+ '&lt;/a&gt;');
+ }
+ __cur = end;
+ }
+
+ loadNext();
+
+ $("#mygallery").justifiedGallery({
+ margin: 3,
+ rel : 'gallery1',
+ rowHeight: 200,
+ captions: false,
+ randomize: false
+ });
+
+ $(window).scroll(function() {
+ if($(window).scrollTop() + $(window).height() &gt;= $(document).height() - 50) {
+ if (__cur &lt; images.length) {
+ loadNext();
+ $('#mygallery').justifiedGallery('norewind');
+ }
+ }
+ });
+&lt;/script&gt;</description></item></channel></rss>
